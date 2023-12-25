@@ -1,0 +1,6 @@
+<!-- Global Planner launch configuration -->
+<launch>
+    <node name="timer_node" pkg="t4ac_global_planner_ros" type="timer.py" output = "screen"/>
+    <node name="vehicle_init_node" pkg="t4ac_global_planner_ros" type="vehicle_init.py" output = "screen"/>
+</launch>
+

@@ -1,0 +1,23 @@
+<!-- Main Mapping Layer launch configuration -->
+<launch>
+    <!-- Arguments set by terminal -->
+    <arg name='map_name' default='Town01'/>
+
+    <!-- Parameters of the layer -->
+    <group ns="/t4ac/mapping">
+        <param name="map_path" type="string" value="/home/mia/catkin_ws/src/t4ac_mapping_layer/maps/xodr/"/>
+        <param name="map_name" type="string" value="$(arg map_name)" />
+    </group>
+
+    <!-- Nodes launched -->
+    <node pkg="t4ac_map_monitor_ros" type="map_visualizator.py" name="map_visualizator_node" output="screen"/>
+    <node pkg="t4ac_map_monitor_ros" type="map_monitor.py" name="map_monitor_node" output="screen"/>
+    <node pkg="t4ac_map_monitor_ros" type="monitor_visualizator.py" name="monitor_visualizator_node" output="screen"/>
+    <!--node pkg="t4ac_map_monitor_ros" type="start_pose_trans.py" name="start_pose_trans_node" output="screen"/>
+    <node pkg="t4ac_map_monitor_ros" type="goal_pose_trans.py" name="goal_pose_trans_node" output="screen"/-->
+    <!--node pkg="t4ac_map_monitor_ros" type="pose_pub.py" name="pose_pub_node" output="screen"/-->
+    
+    <!-- 在rviz中显示-->
+    <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find t4ac_map_monitor_ros)/rviz/mapping_visualization.rviz" required="true" /-->
+    
+</launch>

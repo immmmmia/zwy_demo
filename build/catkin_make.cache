@@ -1,0 +1,2 @@
+t4ac_mapping_layer/t4ac_map_monitor_ros:t4ac_msgs:t4ac_planning_layer/t4ac_global_planner_ros:vision_msgs-noetic-devel
+-DCATKIN_DEVEL_PREFIX=/home/mia/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mia/catkin_ws/install -G Unix Makefiles

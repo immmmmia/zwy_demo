@@ -1,0 +1,28 @@
+<!-- Global Planner launch configuration -->
+<launch>
+    <!-- Arguments set by terminal -->
+    <arg name='map_name' default='Town01'/>
+    <arg name='distance_between_waypoints' default='3'/>
+    <arg name='visualization' default='true'/>
+    
+    <include file="$(find t4ac_map_monitor_ros)/launch/mapping.launch" />
+
+    <!-- Parameters of the layer -->
+    <group ns="/t4ac/mapping">
+        <param name="map_path" type="string" value="/home/mia/catkin_ws/src/t4ac_mapping_layer/maps/xodr/"/>
+        <param name="map_name" type="string" value="$(arg map_name)" />
+        <param name="distance_between_waypoints" type="double" value="$(arg distance_between_waypoints)" />
+    </group>
+
+    <!-- Nodes launched -->
+    <node name="global_planner_node" pkg="t4ac_global_planner_ros" type="lane_waypoint_planner.py" output = "screen"/>
+
+    <group if="$(eval visualization == true)">
+        <node name="route_visualizator_node" pkg="t4ac_global_planner_ros" type="route_visualizator.py" output = "screen"/>
+    </group>
+
+    <!--node name="deadlock_detector_node" pkg="t4ac_global_planner_ros" type="deadlock_detector.py" output = "screen"/-->
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find t4ac_map_monitor_ros)/rviz/planning_visualization.rviz" required="true" />
+</launch>
+

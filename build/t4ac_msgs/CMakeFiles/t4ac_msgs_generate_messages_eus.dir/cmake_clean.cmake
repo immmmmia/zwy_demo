@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/manifest.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/BEV_detection.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/BEV_detections_list.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/BEV_tracker.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/BEV_trackers_list.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Bounding_Box_2D.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Bounding_Box_2D_list.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Bounding_Box_3D.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Bounding_Box_3D_list.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/CarControl.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/CarState.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/DM_path.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/DM_pose.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/DM_posestamped.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/DbWCommand.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/GT_3D_Object.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/GT_3D_Object_list.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Landmark.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Lane.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Location.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/MonitorizedLanes.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/MonitorizedRegElem.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Node.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Obstacle.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Obstacles_list.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Path.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/RegulatoryElement.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Rotation.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Traffic_Sign.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Traffic_Sign_List.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Transform.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Vehicle.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Way.l"
+  "/home/mia/catkin_ws/devel/share/roseus/ros/t4ac_msgs/msg/Waypoint.l"
+  "CMakeFiles/t4ac_msgs_generate_messages_eus"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/t4ac_msgs_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

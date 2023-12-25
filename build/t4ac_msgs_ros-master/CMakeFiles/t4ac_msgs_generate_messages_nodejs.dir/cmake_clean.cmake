@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/BEV_detection.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/BEV_detections_list.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/BEV_tracker.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/BEV_trackers_list.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Bounding_Box_2D.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Bounding_Box_2D_list.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Bounding_Box_3D.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Bounding_Box_3D_list.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/CarControl.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/CarState.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/DM_path.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/DM_pose.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/DM_posestamped.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/DbWCommand.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/GT_3D_Object.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/GT_3D_Object_list.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Landmark.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Lane.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Location.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/MonitorizedLanes.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/MonitorizedRegElem.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Node.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Obstacle.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Obstacles_list.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Path.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/RegulatoryElement.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Rotation.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Traffic_Sign.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Traffic_Sign_List.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Transform.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Way.js"
+  "/home/mia/catkin_ws/devel/share/gennodejs/ros/t4ac_msgs/msg/Waypoint.js"
+  "CMakeFiles/t4ac_msgs_generate_messages_nodejs"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/t4ac_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
